@@ -67,10 +67,10 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'governance',
-        path: 'governance',
-        routeBasePath: 'governance',
-        sidebarPath: './sidebarsGovernance.js',
+        id: 'community',
+        path: 'community',
+        routeBasePath: 'community',
+        sidebarPath: './sidebarsCommunity.js',
         editUrl: 'https://github.com/openRuyi-Project/homepage/edit/main/',
         editLocalizedFiles: true,
       },
@@ -96,10 +96,10 @@ const config: Config = {
           label: 'openRuyi',
         },
         {
-          to: '/governance/legal/code-of-conduct',
-          label: 'Governance',
+          to: '/community/legal/code-of-conduct',
+          label: 'Community',
           position: 'left',
-          activeBaseRegex: `/governance(/|$)/`,
+          activeBaseRegex: `/community(/|$)/`,
         },
         {to: '/news', label: 'News', position: 'left'},
         {
@@ -141,7 +141,7 @@ const config: Config = {
           items: [
             {
               label: 'Privacy Policy',
-              to: '/governance/legal/privacy-policy',
+              to: '/community/legal/privacy-policy',
             },
             {
               label: 'Contact',
